@@ -1,0 +1,33 @@
+{
+  "name": "@hamgom95/observables",
+  "version": "0.1.0",
+  "description": "observable helper functions",
+  "main": "src/index.js",
+  "keywords": [
+    "observable"
+  ],
+  "scripts": {
+    "test": "tap src/**/*.spec.js",
+    "build:doc": "jsdoc src/*",
+    "build:readme": "jsdoc2md --heading-depth=3 --template README.tpl.md \"src/!(*.spec.js|helpers.js)\" > README.md",
+    "prepublish": "npm run build:readme"
+  },
+  "author": {
+    "name": "Kevin Thomas",
+    "email": "hamgom95@gmail.com"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.5.5",
+    "jsdoc-to-markdown": "^4.0.1",
+    "tap": "^12.5.3"
+  },
+  "files": [
+    "/src"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "rxjs": "^6.4.0",
+    "xhr2": "^0.1.4"
+  }
+}

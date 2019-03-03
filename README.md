@@ -1,12 +1,12 @@
-# @hamgom95/observables
+## @hamgom95/observables
 
 Observable helper functions.
 
-## API Documentation
+### API Documentation
 
 <a name="stream"></a>
 
-### stream(stream)
+#### stream(stream)
 Convert stream to observable.
 
 **Kind**: global function  

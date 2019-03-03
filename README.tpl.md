@@ -1,7 +1,7 @@
-# @hamgom95/observables
+## @hamgom95/observables
 
 Observable helper functions.
 
-## API Documentation
+### API Documentation
 
 {{>main}}

@@ -9,7 +9,7 @@
   "scripts": {
     "test": "tap src/**/*.spec.js",
     "build:doc": "jsdoc src/*",
-    "build:readme": "jsdoc2md --heading-depth=3 --template README.tpl.md \"src/!(*.spec.js|helpers.js)\" > README.md",
+    "build:readme": "jsdoc2md --heading-depth=4 --template README.tpl.md \"src/!(*.spec.js|helpers.js)\" > README.md",
     "prepublish": "npm run build:readme"
   },
   "author": {
